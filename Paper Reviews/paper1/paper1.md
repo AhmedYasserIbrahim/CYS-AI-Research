@@ -1,9 +1,3 @@
----
-title: "A Study on Using ChatGPT to Generate Security Tests"
-author: "Anonymous"
-date: "January 29, 2025"
----
-
 ## Introduction
 
 Supply chain attacks occur when attackers exploit vulnerabilities in libraries to compromise applications built on top of them. These attacks have been growing at a rapid pace, with reports indicating a 650% increase in 2021 followed by a 742% increase in 2022. To mitigate the damage caused by such attacks, engineers have developed tools to detect vulnerabilities in libraries used by various projects. However, existing tools do not demonstrate how those vulnerabilities may be exploited, and they generate false positives at rates as high as 99%. This can lead developers to miss genuine vulnerabilities and grow frustrated, ultimately causing them to reject these tools. Consequently, there is a need for solutions that show proof-of-concept exploits to gain developers’ confidence. Current tools, such as SEIGE and TRANSFER, do not yield satisfactory results, so this study aims to explore ChatGPT’s ability to generate security tests. Specifically, the research poses three questions:
